@@ -1,0 +1,64 @@
+{
+  "intents": [
+    {
+      "tag": "salutation",
+      "patterns": ["salut","Hi", "cc","slm" ,"salam", "coucou", "yo", "Hello", "bonjour", "bonsoir" , "hello" , "hey","wesh","wach" ,"bon matin", "salutations"],
+      "responses": ["Hello!", "Ca va!", "Salut, comment vas-tu?", "Comment puis-je vous aider aujourd'hui?", "Salut, ravi de vous voir!"],
+      "context_set": ""
+    },
+    {
+      "tag": "fermeture",
+      "patterns": ["au revoir","hayd" ,"thala","sf", "tlah", "goodbye", "a plus tard", "byebye", "je pars", "bonne journée","bye","je dois partir", "a la prochaine", "a bientot", "a plus tard"],
+      "responses": ["Au revoir!", "A bientot!", "Passez une bonne journée!", "A la prochaine!", "Bye!"],
+      "context_set": ""
+    },
+    {
+      "tag": "emploi",
+      "patterns": ["quel matiere", "qu'es ce que j'ai aujourd'hui", "emploi du temps", "affiche moi les matieres", "affiche moi l'emploi du temps","je cherche un emploi de temps", "horaires des cours", "emplois", "quel est mon emplois du temps", "quel emplois on a", "mon planing des cours" ,"quels cours ai-je", "quels cours aujourd'hui", "mon emploi du temps"],
+      "responses": ["Concentrez-vous sur vos etudes.", "Je peux vous accompagner durant vos etudes.", "Essayez de ne pas secher les cours.", "Faites attention aux penalites si vous vous absentez souvent.", "Vous pouvez consulter votre emploi du temps sur notre plateforme en ligne."],
+      "context_set": ""
+    },
+    {
+      "tag": "remerciement",
+      "patterns": ["merci", "ah bon", "ouf tu m'as sauvé", "merci pour tout","merci pour ton aide", "grand merci", "je vous remercie"],
+      "responses": ["De rien :)", "Je n'ai fait que mon devoir.", "Je suis la pour vous aider.", "Ravi de vous avoir aide.", "Merci a vous aussi!"],
+      "context_set": ""
+    },
+    {
+      "tag": "filliere",
+      "patterns": ["je cherche des renseignements","filiere","filliere", "que fait cette filiere", "explique moi cette filiere", "affiche moi cette filiere","chef de filiere","branche ensias","affiche moi les branches","affiche moi les filieres", "cursus", "informations sur la filiere", "specialites"],
+      "responses": ["Chaque filiere joue un role important.", "Choisissez votre filiere selon vos preferences.", "Ensias suit le marche du travail en proposant les dernieres innovations.", "Chaque filiere donne acces a une carriere particuliere.", "Vous pouvez trouver plus d'informations sur notre site web concernant les specialites de chaque filiere."],
+      "context_set": ""
+    },
+    {
+      "tag": "partenaire",
+      "patterns": ["quel sont les partenaires","partenariat","partenaire","entreprises", "qui sont vos partenaires", "partenaires academiques", "collaborations"],
+      "responses": ["Nos partenaires comprennent des entreprises de renom telles que X, Y et Z.", "Nous avons etabli des partenariats solides avec diverses entreprises du secteur.", "Nos partenaires academiques incluent des institutions prestigieuses du monde entier."],
+      "context_set": ""
+    },
+    {
+      "tag": "mobilite",
+      "patterns": ["mobilite","double diplomation","annee echange","ecole","etranger","dd", "etudier a l'etranger", "programme d'echange", "experience internationale"],
+      "responses": ["Nous proposons des programmes de mobilite internationale et de double diplomation dans plusieurs pays.", "L'annee d'echange est une opportunite unique pour etudier a l'etranger et elargir vos horizons academiques.", "Les etudiants ont la possibilite de suivre une partie de leur cursus dans nos universites partenaires a l'etranger."],
+      "context_set": ""
+    },
+    {
+      "tag": "cours",
+      "patterns": ["je cherche un cours","lecon","cours","j'ai besoin d'un cours","j'ai besoin d'une lecon", "aide pour le cours", "ressources pedagogiques"],
+      "responses": ["N'oubliez pas que le cours tout seul ne suffit pas.", "Essayez d'appliquer votre cours maintenant.", "Les TDs restent un bon moyen pour appliquer votre cours.", "Vous pouvez trouver des ressources pedagogiques supplementaires sur notre plateforme en ligne."],
+      "context_set": ""
+    },
+    {
+      "tag": "aide",
+      "patterns": ["aide moi","comment utilise ce chatbot", "aide moi s'il vous plait" , "help me","que fait tu","que peux tu faire","je ne sais pas quoi faire","?", "je suis perdu", "je suis confus"],
+      "responses": ["Je suis la pour vous aider. Pouvez-vous me donner plus de details sur votre probleme?", "Je vais essayer de vous aider. Quel est votre probleme?", "N'hesitez pas a me poser n'importe quelle question. Je ferai de mon mieux pour vous aider."],
+      "context_set": ""
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["Je suis desole, je ne comprends pas. Pouvez-vous reformuler votre question?", "Je suis encore en train d'apprendre. Pouvez-vous poser une autre question?", "Pardon, je n'ai pas compris. Pourriez-vous etre plus precis?"],
+      "context_set": ""
+    }
+  ]
+}
