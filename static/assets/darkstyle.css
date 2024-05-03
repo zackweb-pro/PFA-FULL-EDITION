@@ -1,0 +1,257 @@
+@import url('https://fonts.googleapis.com/css2?family=Keania+One&family=Poller+One&family=Poppins:ital,wght@0,100;0,200;0,500;0,700;0,900;1,100;1,400;1,600;1,900&family=Tac+One&display=swap');
+*{
+    font-family: "Poppins", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+    background-color: #200726;
+}
+.shape1{
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+.download_pdf{
+    display: inline-block !important;
+    width: auto !important;
+}
+nav .dark{
+    width: 30px;
+    cursor: pointer;
+    position: absolute;
+    top: 30px;
+    right: 80px;
+}
+.logo {
+    width: 80px;
+}
+nav{
+    display: flex;
+}
+nav .name{
+    display:block;
+    margin: 10px auto;
+    /* text-align: center; */
+    font-family: 'Keania One', sans-serif;
+    font-size: 25px;
+    color: #9747FF;
+    z-index: 4;
+}
+.chat_sec {
+    padding-top: 50px;
+    margin: 20vh auto 0 auto;
+    overflow-y: scroll;
+    height: 550px;
+    max-width: 800px;
+
+    /* background-color: #E76457; */
+    z-index: 4;
+    
+}
+.user_container{
+    padding: 20px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+.user_msg{
+    background-color: #4A1259;
+    padding: 25px 35px;
+    color: white;
+    border-radius: 7px;
+    max-width: 600px;
+    position: relative;
+
+    overflow: visible;
+
+}
+.user_msg *:not(.content){
+    position: absolute;
+}
+.user_msg .user{
+    width: 44px;
+    top: -25px;
+    left: -20px;
+    z-index: 2;
+}
+.user_msg .name{
+    color: #C7A9ED;
+    top: -22px;
+    left: 27px;
+    font-family: 'Keania One', sans-serif;
+    font-size: 20px;
+}
+.user_msg .modif{
+    bottom: 5px;
+    right: 5px;
+    width: 20px;
+    cursor: pointer;
+}
+.user_msg::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #200726;
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+    left: -25px;
+}
+.user_msg::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #4A1259;
+    position: absolute;
+    z-index: 1;
+    bottom: -5px;
+    right: -5px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(145deg);
+}
+::-webkit-scrollbar {
+    width: 5px;
+  }
+  /* EFBC9B */
+  /* Track */
+  ::-webkit-scrollbar-track {
+    /* box-shadow: inset 0 0 5px #EFBC9B;  */
+    border-radius: 2px;
+  }
+   
+  /* Handle */
+  ::-webkit-scrollbar-thumb {
+    background: none; 
+    border-radius: 2px;
+  }
+  
+  /* Handle on hover */
+  ::-webkit-scrollbar-thumb:hover {
+    background: none; 
+  }
+
+
+  .bot_container{
+    padding: 20px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+.bot_msg{
+    background-color: #622773;
+    padding: 25px 35px;
+    color: white;
+    border-radius: 7px;
+    max-width: 600px;
+    position: relative;
+
+    overflow: visible;
+
+}
+
+.bot_msg .content img{
+    position: relative;
+    width: 400px;
+    display: block;
+    margin: 5px auto;
+}
+.bot_msg .content a{
+    position: relative;
+    display: block;
+    margin: 5px auto;
+    padding: .8rem 1.3rem;
+    outline: none;
+    width: 150px;
+    border: 2px solid #1a003b;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: #1a003b;
+    font-size: 19px;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.bot_msg *:not(.content){
+    position: absolute;
+}
+.bot_msg .bot{
+    width: 34px;
+    top: -25px;
+    left: -18px;
+    z-index: 2;
+}
+.bot_msg .name{
+    color: #9747FF;
+    top: -22px;
+    left: 27px;
+    font-family: 'Keania One', sans-serif;
+    font-size: 20px;
+}
+
+.bot_msg::after{
+    content: "";
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: #200726;
+    position: absolute;
+    z-index: 1;
+    top: -25px;
+    left: -25px;
+}
+.bot_msg::before{
+    content: "";
+    width: 15px;
+    height: 15px;
+    background-color: #622773;
+    position: absolute;
+    z-index: 1;
+    bottom: -5px;
+    left: -5px;
+    clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+    transform: rotate(-145deg);
+}
+.shape2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+}
+footer{
+    padding: 50px;
+
+}
+footer form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer input{
+    display: block;
+    padding: .8rem 1.3rem;
+    outline: none;
+    border: 2px solid #9747FF;
+    width: 500px;
+    border-radius: 5px;
+    font-size: 19px;
+    background-color: transparent;
+    color: white;
+}
+footer button{
+    display: block;
+    margin: 5px;
+    padding: .8rem 1.3rem;
+    outline: none;
+    border: 2px solid #9747FF;
+    cursor: pointer;
+    border-radius: 5px;
+    color: white;
+    background-color: #9747FF;
+    font-size: 19px;
+}
