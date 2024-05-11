@@ -59,6 +59,12 @@
       "patterns": [],
       "responses": ["Je suis desole, je ne comprends pas. Pouvez-vous reformuler votre question?", "Je suis encore en train d'apprendre. Pouvez-vous poser une autre question?", "Pardon, je n'ai pas compris. Pourriez-vous etre plus precis?"],
       "context_set": ""
+    },
+    {
+      "tag": "changer mode",
+      "patterns": ["changer mois ce mode s'il vous plais","light mode", "dark mode" , "switcher le mode", "changer le theme de la page","j'aime pas ce theme"],
+      "responses": ["changer mode"],
+      "context_set": ""
     }
   ]
 }
