@@ -43,7 +43,7 @@ nav .name{
 }
 .chat_sec {
     padding-top: 50px;
-    margin: 20vh auto 0 auto;
+    margin: 10vh auto 0 auto;
     overflow-y: scroll;
     height: 550px;
     max-width: 800px;
@@ -254,4 +254,59 @@ footer button{
     color: white;
     background-color: #9747FF;
     font-size: 19px;
+}
+.dots {
+    position: relative !important;
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+}
+
+.dots div {
+    position: relative !important;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 0 0px 0 2px;
+    background-color: #200726;
+    --webkit-animation: bounce .7s infinite alternate;
+    --moz-animation: bounce .7s infinite alternate;
+    --o-animation: bounce .7s infinite alternate;
+    animation: bounce .7s infinite alternate;
+}
+
+@-webkit-keyframes bounce {
+    to {
+        opacity: .2;
+        transform: translateY(-10px);
+    }
+}
+
+@-moz-keyframes bounce {
+    to {
+        opacity: .2;
+        transform: translateY(-10px);
+    }
+}
+
+@-o-keyframes bounce {
+    to {
+        opacity: .2;
+        transform: translateY(-10px);
+    }
+}
+
+@keyframes bounce {
+    to {
+        opacity: .2;
+        transform: translateY(-10px);
+    }
+}
+
+.dots div:nth-child(2) {
+    animation-delay: 300ms;
+}
+
+.dots div:nth-child(3) {
+    animation-delay: .6s;
 }
