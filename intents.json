@@ -26,7 +26,7 @@
     },
     {
       "tag": "filliere",
-      "patterns": ["je cherche des renseignements","filiere","filliere", "que fait cette filiere", "explique moi cette filiere", "affiche moi cette filiere","chef de filiere","branche ensias","affiche moi les branches","affiche moi les filieres", "cursus", "informations sur la filiere", "specialites"],
+      "patterns": ["je cherche des renseignements","les filières","filière","filliere", "filieres", "filieres", "que fait cette filiere", "explique moi cette filiere", "affiche moi cette filiere","chef de filiere","branche ensias","affiche moi les branches","affiche moi les filieres", "cursus", "informations sur la filiere", "specialites"],
       "responses": ["Chaque filiere joue un role important.", "Choisissez votre filiere selon vos preferences.", "Ensias suit le marche du travail en proposant les dernieres innovations.", "Chaque filiere donne acces a une carriere particuliere.", "Vous pouvez trouver plus d'informations sur notre site web concernant les specialites de chaque filiere."],
       "context_set": ""
     },
@@ -38,13 +38,13 @@
     },
     {
       "tag": "mobilite",
-      "patterns": ["mobilite","double diplomation","annee echange","ecole","etranger","dd", "etudier a l'etranger", "programme d'echange", "experience internationale"],
+      "patterns": ["mobilite", "mobilité" , "double diplomation","annee echange","ecole","etranger","dd", "etudier a l'etranger", "programme d'echange", "experience internationale"],
       "responses": ["Nous proposons des programmes de mobilite internationale et de double diplomation dans plusieurs pays.", "L'annee d'echange est une opportunite unique pour etudier a l'etranger et elargir vos horizons academiques.", "Les etudiants ont la possibilite de suivre une partie de leur cursus dans nos universites partenaires a l'etranger."],
       "context_set": ""
     },
     {
       "tag": "cours",
-      "patterns": ["je cherche un cours","lecon","cours","j'ai besoin d'un cours","j'ai besoin d'une lecon", "aide pour le cours", "ressources pedagogiques"],
+      "patterns": ["je cherche un cours", "les supports de cours" , "lecon","cours","j'ai besoin d'un cours","j'ai besoin d'une lecon", "aide pour le cours", "ressources pedagogiques"],
       "responses": ["N'oubliez pas que le cours tout seul ne suffit pas.", "Essayez d'appliquer votre cours maintenant.", "Les TDs restent un bon moyen pour appliquer votre cours.", "Vous pouvez trouver des ressources pedagogiques supplementaires sur notre plateforme en ligne."],
       "context_set": ""
     },
